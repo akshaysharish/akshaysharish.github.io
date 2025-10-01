@@ -221,29 +221,34 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
 	<script>
-document.getElementById("emailLink").addEventListener("click", function(event) {
-    event.preventDefault();
+			document.getElementById("emailLink").addEventListener("click", function(event) {
+				event.preventDefault();
 
-    const personalEmail = "akshay.s.harish@gmail.com";
-    const workEmail = "p20200068@goa.bits-pilani.ac.in";
+				const personalEmail = "akshay.s.harish@gmail.com";
+				const workEmail = "p20200068@goa.bits-pilani.ac.in";
 
-    // Ask the user which email they want. OK = Personal, Cancel = Work
-    if (confirm(`Do you want to copy the personal email?\n\n(Click 'Cancel' to copy the work email)`)) {
-        // User clicked OK
-        navigator.clipboard.writeText(personalEmail).then(function() {
-            alert(`Personal email (${personalEmail}) copied to clipboard!`);
-        });
-    } else {
-        // User clicked Cancel
-        navigator.clipboard.writeText(workEmail).then(function() {
-            alert(`Work email (${workEmail}) copied to clipboard!`);
-        });
-    }
-});
-</script>
+				// Ask the user which email they want. OK = Personal, Cancel = Work
+				if (confirm(`Do you want to copy the personal email?\n\n(Click 'Cancel' to copy the work email)`)) {
+					// User clicked OK
+					navigator.clipboard.writeText(personalEmail).then(function() {
+						alert(`Personal email (${personalEmail}) copied to clipboard!`);
+					});
+				} else {
+					// User clicked Cancel
+					navigator.clipboard.writeText(workEmail).then(function() {
+						alert(`Work email (${workEmail}) copied to clipboard!`);
+					});
+				}
+			});
+		</script>
+
+		
 	</body>
 </html>
+
 
 
 
