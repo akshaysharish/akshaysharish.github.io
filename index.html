@@ -178,10 +178,13 @@
 								<ul class="icons">
 									<li><a href=" https://x.com/Akshay_S_H" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-									<li><a href="https://www.instagram.com/akshay.s.harish/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.instagram.com/akshay.s.harish/" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<!-- <li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li> -->
-									<li><a href="akshaysharish@gmail.com" target="_blank" rel="noopener noreferrer" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-									<li><a href="akshay.s.hebbar@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="javascript:void(0);" id="personalEmailLink" class="icon solid fa-envelope" title="Copy Personal Email"><span class="label">Personal Email</span></a></li>
+									<li><a href="javascript:void(0);" id="workEmailLink" class="icon solid fa-envelope" title="Copy Work Email"><span class="label">Work Email</span></a></li>
+									
+									<!-- <li><a href="akshaysharish@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="akshay.s.hebbar@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
 								</ul>
 							</section>
 						<section>
@@ -218,9 +221,30 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+	<script>
+document.getElementById("emailLink").addEventListener("click", function(event) {
+    event.preventDefault();
 
+    const personalEmail = "akshay.s.harish@gmail.com";
+    const workEmail = "p20200068@goa.bits-pilani.ac.in";
+
+    // Ask the user which email they want. OK = Personal, Cancel = Work
+    if (confirm(`Do you want to copy the personal email?\n\n(Click 'Cancel' to copy the work email)`)) {
+        // User clicked OK
+        navigator.clipboard.writeText(personalEmail).then(function() {
+            alert(`Personal email (${personalEmail}) copied to clipboard!`);
+        });
+    } else {
+        // User clicked Cancel
+        navigator.clipboard.writeText(workEmail).then(function() {
+            alert(`Work email (${workEmail}) copied to clipboard!`);
+        });
+    }
+});
+</script>
 	</body>
 </html>
+
 
 
 
