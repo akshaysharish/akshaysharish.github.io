@@ -5,6 +5,7 @@
 	Future Imperfect by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -3609,3 +3610,46 @@ input, select, textarea {
 			}
 
 		}
+
+/* Custom Research & Publication Styling */
+.publications-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.publications-list li {
+    margin-bottom: 2.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.publications-list li:last-child {
+    border-bottom: none;
+}
+
+.pub-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #333;
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+.pub-authors {
+    font-size: 0.95em;
+    color: #666;
+}
+
+.pub-journal {
+    display: block;
+    margin-bottom: 0.8em;
+}
+
+/* Small adjustments to buttons inside the list */
+.publications-list .button.small {
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1em;
+    font-size: 0.7em;
+    margin-right: 5px;
+}
