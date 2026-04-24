@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Akshay S Harish</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Akshay S Harish</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h3 id=&#34;institutional-address&#34;&gt;Institutional Address&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Akshay S. Harish&lt;/strong&gt; PhD Scholar&lt;br&gt;
+Department of Physics&lt;br&gt;
+BITS-Pilani, K K Birla Goa Campus&lt;br&gt;
+Zuarinagar, Goa - 403726, India&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reach-out&#34;&gt;Reach Out&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:p20200068@goa.bits-pilani.ac.in&#34;&gt;p20200068@goa.bits-pilani.ac.in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:akshaysharish@gmail.com&#34;&gt;akshaysharish@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/akshaysharish&#34;&gt;@akshaysharish&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;X (Twitter):&lt;/strong&gt; &lt;a href=&#34;https://x.com/Akshay_S_H&#34;&gt;@Akshay_S_H&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;I am always open to hearing more about anything related to my field.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/akshay1.jpeg&#34;
+         alt=&#34;Akshay S Harish&#34; width=&#34;200&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;Currently, I am pursuing a PhD at BITS-Pilani, Goa. I work in the field of Nonlinear Dynamics and complex systems. I use reduced neuron models (simplified versions of models describing the behaviour of neurons) to study emergent phenomena when there is a network of a large number of neurons.&lt;/p&gt;
+&lt;p&gt;This is a place to keep the resources as organised as possible. It’s sort of a digital diary that I intend to use for keeping notes of the things that interest me, things I am supposed to (and/or interested in) learn, and the things that distract me for a great duration and keep me from doing that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research &amp; Publications</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>Exploring Nonlinear Dynamics and Neuronal Networks</description>
+    </item>
+  </channel>
+</rss>
