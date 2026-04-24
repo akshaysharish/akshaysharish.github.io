@@ -1,0 +1,46 @@
+baseURL = 'https://akshaysharish.github.io/'
+languageCode = 'en-us'
+title = 'Akshay S Harish'
+theme = 'PaperMod'
+
+[params]
+    author = "Akshay S. Harish"
+    description = "PhD Scholar | Nonlinear Dynamics"
+    showAuthor = false
+    ShowSearch = true
+
+[params.profileMode]
+    enabled = true
+    title = "Akshay S Harish"
+    subtitle = "PhD Scholar at BITS-Pilani, Goa | Implementing Nonlinear Dynamics tools to study Complex Systems"
+    imageUrl = "/images/akshay1.jpeg"
+    imageWidth = 150
+    imageHeight = 150
+    imageTitle = "Akshay S Harish"
+
+[[params.socialIcons]]
+    name = "email"
+    url = "mailto:akshaysharish@gmail.com"
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/akshaysharish"
+[[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/Akshay_S_H"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 10
+[[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 20
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 30
+[[menu.main]]
+    name = "CV"
+    url = "/site_cv_april_2026.pdf"
+    weight = 40

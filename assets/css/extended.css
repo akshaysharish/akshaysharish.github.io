@@ -1,0 +1,37 @@
+/* Container for the image and title */
+.layout-hero-page .post-single {
+    position: relative;
+}
+
+/* Style the Cover Image */
+.layout-hero-page .entry-cover {
+    position: relative;
+    max-height: 400px; /* Adjust height as needed */
+    margin-bottom: -100px; /* Pulls the content up */
+    opacity: 0.5; /* Makes the image transparent */
+    filter: brightness(0.7); /* Helps white text stand out */
+}
+
+/* Style the Title to sit on top */
+.layout-hero-page .post-header {
+    position: relative;
+    z-index: 10;
+    padding-top: 150px; /* Centers the title vertically over the image */
+    text-align: center;
+}
+
+.layout-hero-page .post-title {
+    font-size: 4rem !important; /* Makes the font big */
+    color: #ffffff; /* Contrast color */
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5); /* Adds a shadow for readability */
+}
+
+.dark .layout-hero-page .entry-cover {
+    opacity: 0.3;
+}
+
+.post-single .entry-cover {
+    max-width: 60%; /* This makes the cover image smaller */
+    margin: 0 auto; /* This centers it */
+    opacity: 0.8;   /* This adds the transparency you wanted */
+}
