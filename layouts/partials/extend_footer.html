@@ -1,0 +1,15 @@
+<script>
+    document.querySelectorAll('a').forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href) return;
+
+        // Open PDFs or external research links (doi.org, arxiv.org) in a new tab
+        const isExternal = href.startsWith('http');
+        const isPdf = href.endsWith('.pdf');
+
+        if (isExternal || isPdf) {
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+        }
+    });
+</script>
