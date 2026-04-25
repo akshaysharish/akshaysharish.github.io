@@ -3,11 +3,14 @@
         const href = link.getAttribute('href');
         if (!href) return;
 
-        // Open PDFs or external research links (doi.org, arxiv.org) in a new tab
-        const isExternal = href.startsWith('http');
+        // 1. Check if it's a PDF
         const isPdf = href.endsWith('.pdf');
 
-        if (isExternal || isPdf) {
+        // 2. Check if it's truly external
+        // This compares the link's host (e.g., arxiv.org) to your current site's host (localhost or github.io)
+        const isExternal = link.hostname && link.hostname !== window.location.hostname;
+
+        if (isPdf || isExternal) {
             link.target = '_blank';
             link.rel = 'noopener noreferrer';
         }

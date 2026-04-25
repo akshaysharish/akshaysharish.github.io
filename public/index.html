@@ -128,8 +128,8 @@
 </header>
 <main class="main"><div class="profile">
     <div class="profile_inner">
-            <img draggable="false" src="http://localhost:1313/images/akshay1.jpeg" alt="Akshay S Harish" title="Akshay S Harish"
-                height="150" width="150" />
+        <img draggable="false" src="http://localhost:1313/images/akshay1.jpeg" alt="Akshay S Harish" title="Akshay S Harish"
+            height="150" width="150" />
         <h1>Akshay S Harish</h1>
         <span>PhD Scholar at BITS-Pilani, Goa | Implementing Nonlinear Dynamics tools to study Complex Systems</span><div class="social-icons" >
     <a href="mailto:akshaysharish@gmail.com" target="_blank" rel="noopener noreferrer me"
@@ -177,7 +177,25 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+    document.querySelectorAll('a').forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href) return;
+
+        
+        const isPdf = href.endsWith('.pdf');
+
+        
+        
+        const isExternal = link.hostname && link.hostname !== window.location.hostname;
+
+        if (isPdf || isExternal) {
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+        }
+    });
+</script>
+
 
 <script>
     let menu = document.getElementById('menu');
