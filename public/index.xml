@@ -6,6 +6,7 @@
     <description>Recent content on Akshay S Harish</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 25 Apr 2026 11:37:04 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
@@ -28,6 +29,41 @@ Zuarinagar, Goa - 403726, India&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;I am always open to hearing more about anything related to my field.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/resources/</link>
+      <pubDate>Sat, 25 Apr 2026 11:37:04 +0530</pubDate>
+      <guid>http://localhost:1313/resources/</guid>
+      <description>&lt;h3 id=&#34;resources-related-to-nonlinear-dynamics-and-chaos&#34;&gt;Resources related to Nonlinear dynamics and chaos:&lt;/h3&gt;
+&lt;h4 id=&#34;some-of-the-books-i-found-useful-while-starting-the-subject&#34;&gt;Some of the books I found useful while starting the subject.&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Nonlinear dynamics and chaos: With applications to Physics, Biology, Chemistry, and Engineering&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;By Steven H Strogatz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Nonlinear Ordinary Differential Equations&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;By R Grimshaw&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Chaos in dynamical systems&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;By Edward Ott&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Chaos: An introduction to dynamical systems&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;By Kathleen Alligood, Tim Sauer, James Yorke&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;video-lectures-and-other-resources&#34;&gt;Video lectures and other Resources:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLbN57C5Zdl6j_qJA-pARJnKsmROzPnO9V&#34;&gt;Video lectures by Steven Strogatz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLbMVogVj5nJQKk1E7OUQs_TcW_zQoaO4t&#34;&gt;Lectures on nonlinear dynamics by Prof. V Balakrishnan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,7 +81,52 @@ Zuarinagar, Goa - 403726, India&lt;/p&gt;
       <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/</guid>
-      <description>Exploring Nonlinear Dynamics and Neuronal Networks</description>
+      <description>&lt;style&gt;
+    /* 1. Hide the default PaperMod cover image */
+    .cover {
+        display: none !important;
+    }
+
+    /* 2. Create the full-width banner area */
+    .post-header {
+        margin: 0 !important;
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw !important;
+        margin-right: -50vw !important;
+        
+        /* Set your image here */
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url(&#39;background1.jpg&#39;) no-repeat center center;
+        background-size: cover;
+        
+        height: 400px; /* Reduced height as requested */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white; /* Title color on the image */
+    }
+
+    /* 3. Style the Title specifically */
+    .post-header .post-title {
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* Makes text pop against image */
+        margin: 0;
+    }
+
+    /* 4. Keep the actual research list centered and normal width */
+    .post-content {
+        max-width: var(--main-width);
+        margin: 40px auto;
+        padding: 0 var(--gap);
+    }
+&lt;/style&gt;
+&lt;h3 id=&#34;current-research&#34;&gt;Current Research:&lt;/h3&gt;
+&lt;p&gt;My primary research at &lt;strong&gt;BITS-Pilani, Goa&lt;/strong&gt; involves studying synchronization of neuronal networks. I work with reduced neuron models (simplified versions of neuron models). I am interested in adapting more and more realistic scenarios that mimic the actual biological settings, even in these seemingly abstract models.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

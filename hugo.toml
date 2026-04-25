@@ -37,10 +37,17 @@ theme = 'PaperMod'
     url = "/research/"
     weight = 20
 [[menu.main]]
+    name = "Resources"
+    url = "/resources/"
+    weight = 30
+[[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 30
+    weight = 40
 [[menu.main]]
     name = "CV"
     url = "/site_cv_april_2026.pdf"
-    weight = 40
+    weight = 50
+
+[markup.goldmark.renderer]
+    unsafe = true
