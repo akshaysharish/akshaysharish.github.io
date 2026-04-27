@@ -44,10 +44,6 @@ theme = 'PaperMod'
     name = "Contact"
     url = "/contact/"
     weight = 40
-[[menu.main]]
-    name = "CV"
-    url = "/site_cv_april_2026.pdf"
-    weight = 50
 
 [markup.goldmark.renderer]
     unsafe = true

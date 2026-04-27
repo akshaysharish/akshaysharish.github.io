@@ -74,3 +74,6 @@ The network topology with which these neurons are connected in a given neuronal 
 **2. Self-integrating dual oxide memristor for artificial neuron functionality** B. Manoj Kumar, **Akshay S. Harish**, C. Malavika, Gaurav Dar, and E. S. Kannan.  
 *APL Electronic Devices 1, 026102* (2025).  
 [View DOI](https://doi.org/10.1063/5.0253472)
+
+---
+[Download full CV here](/site_cv_april_2026.pdf)
